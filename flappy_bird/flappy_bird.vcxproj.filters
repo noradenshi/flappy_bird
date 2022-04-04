@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="discord">
+      <UniqueIdentifier>{7c34c1b3-d23c-4616-8d13-b8f503bbb8d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{e7bfab2b-248b-4d6b-81f8-864191845425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{256ae7b1-6184-459a-9f29-88a47ef337d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{e39ce5d3-e168-4838-8d0e-688133a2436d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{e8f252dd-2005-4726-9921-deae223e5c90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="discord\achievement_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\activity_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\application_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\core.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\image_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\lobby_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\network_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\overlay_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\relationship_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\storage_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\store_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\types.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\user_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="discord\voice_manager.cpp">
+      <Filter>discord</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Border.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Soundtrack.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Leaderboard.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="discord\achievement_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\activity_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\application_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\core.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\discord.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\event.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\ffi.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\image_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\lobby_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\network_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\overlay_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\relationship_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\storage_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\store_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\types.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\user_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="discord\voice_manager.h">
+      <Filter>discord</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Border.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipe.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Soundtrack.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Leaderboard.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="flappy_bird.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\flappy_bird.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\bird_icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
