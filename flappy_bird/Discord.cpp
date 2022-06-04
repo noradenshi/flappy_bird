@@ -60,8 +60,8 @@ Discord::Discord(UI *_ui)
 		return;
 	}
 
-	//core->UserManager().OnCurrentUserUpdate.Connect([&]() { OnCurrentUserUpdate(); });
-	//core->RelationshipManager().OnRefresh.Connect([&]() { OnRelationshipRefresh(); });
+	core->UserManager().OnCurrentUserUpdate.Connect([&]() { OnCurrentUserUpdate(); });
+	core->RelationshipManager().OnRefresh.Connect([&]() { OnRelationshipRefresh(); });
 
 	isActive = true;
 	activity.SetType(discord::ActivityType::Playing);
